@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Number Guessing Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link rel="stylesheet" href="app.css">
+        <script src="app.js" defer></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="game">
+              <section class="game-info">
+                <h1>Guess a num!</h1>
+                <h4>Try Your Luck with Computer</h4>
+              </section>
+              <section class="game-config">
+                <div class="row">
+                    <h5>Computer have a Number. Guess If it is :</h5>
+                    <ul>
+                        <button class="button-primary" id="high-value">High (>50)</button>
+                        <button class="button-primary" id="equal-value">Equal (=50)</button>
+                        <button class="button-primary" id="low-value">low (<50)</button>
+                    </ul>
+                </div>
+              </section>
+              <section class="game-body hidden">
+                <input type="submit" id="button" value="">
+                <p class="message"></p>
+              </section>
+            </div>
+          </div>
+    </body>
+
+</html>

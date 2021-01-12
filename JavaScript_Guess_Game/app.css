@@ -1,0 +1,43 @@
+body{
+    background: rgb(56, 77, 242);
+}
+.container {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    padding: 0;
+    max-width: 600px;
+    text-align: center;
+    /* #1EAEDB; */
+   
+  }
+
+  .container::after{
+    display: none;
+  }
+  
+  .game {
+    background-color: rgba(201, 193, 171);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  button:disabled,
+button[disabled]{
+  cursor: not-allowed;
+        pointer-events: none;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
