@@ -30,7 +30,7 @@ function gameStatus(msg, color, playBtn, buttons) {
 function playAgain(){
     const playButton = document.querySelector(".play-again");
     playButton.addEventListener("mousedown", function () {
-         
+        window.parent.location = window.parent.location.href;
     });
 }
 
