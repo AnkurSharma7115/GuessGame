@@ -41,3 +41,29 @@ button[disabled]{
   background-color: #cccccc;
   color: #666666;
 }
+footer{
+  background-color: rgba(201, 193, 171);
+  text-align: center;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 600px;
+  
+}
+
+.fa {
+
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+   color: black;
+   background-color : white;
+}
+
+.fa-github {
+  
+  color: white;
+}
